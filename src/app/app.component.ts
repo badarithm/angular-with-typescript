@@ -8,6 +8,7 @@ import {Product} from './models/Product';
     '<ul>' +
     '<li *ngFor="let product of products">' +
     '{{product.title}}' +
+
     '</li>' +
     '</ul>',
   styleUrls: ['./app.component.scss']
